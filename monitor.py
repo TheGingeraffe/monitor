@@ -1,4 +1,3 @@
-import os
 import subprocess
 
 sys_uptime = "uptime | awk -F',' '{print $1}'"
